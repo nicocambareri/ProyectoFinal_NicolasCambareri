@@ -1,7 +1,7 @@
 {
   "name": "pf_ncambareri",
   "version": "1.0.0",
-  "description": "",
+  "description": "Bienvenido al repositorio de la página especializada en diseño de mobiliario. Aquí encontrarás información sobre diseños de muebles, herrajes, terminaciones, colores y una amplia gama de ideas innovadoras para inspirarte.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
