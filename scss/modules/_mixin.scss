@@ -3,6 +3,9 @@
         background-color:map-get($paleta_colores, "negro");
         .nav_personalizado{
             background-color:map-get($paleta_colores, "negro");
+            .navbar-toggler-icon{
+                background-color: map-get($paleta_colores, "gris");
+            }
             .contenedor_anclas_botones{
                 background-color:map-get($paleta_colores, "negro");
                 .color_fuente{

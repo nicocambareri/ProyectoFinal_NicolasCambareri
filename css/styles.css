@@ -11,6 +11,9 @@ header .contenedor_nav {
 header .contenedor_nav .nav_personalizado {
   background-color: black;
 }
+header .contenedor_nav .nav_personalizado .navbar-toggler-icon {
+  background-color: rgb(65, 65, 65);
+}
 header .contenedor_nav .nav_personalizado .contenedor_anclas_botones {
   background-color: black;
 }
