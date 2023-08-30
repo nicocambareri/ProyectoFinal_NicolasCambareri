@@ -1,0 +1,13 @@
+// Estilos de pagina Colores
+.tarjetas_colores{
+    padding: 20px;
+    background-color: map-get($paleta_colores, "negro" );
+    .contenedor_tarjetas_colores{
+        background-color: map-get($paleta_colores, "negro" );
+        color: map-get($paleta_colores, "blanco" );
+    }
+
+}
+
+
+

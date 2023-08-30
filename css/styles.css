@@ -1,0 +1,248 @@
+@charset "UTF-8";
+body {
+  background-color: black;
+  position: relative;
+  min-height: 100vh;
+}
+
+header .contenedor_nav {
+  background-color: black;
+}
+header .contenedor_nav .nav_personalizado {
+  background-color: black;
+}
+header .contenedor_nav .nav_personalizado .contenedor_anclas_botones {
+  background-color: black;
+}
+header .contenedor_nav .nav_personalizado .contenedor_anclas_botones .color_fuente {
+  color: whitesmoke;
+}
+header .nav-link:hover {
+  font-size: 1.02rem;
+  color: rgb(234, 239, 149) !important;
+}
+
+.seccion_carrusel_index {
+  padding-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.seccion_carrusel_index .carousel-item {
+  height: 50%;
+  width: 100%;
+}
+.seccion_carrusel_index .carousel-item .img_carrusel {
+  border-radius: 15px;
+}
+
+.seccion_carrusel_index_dos {
+  padding-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.seccion_carrusel_index_dos .carousel-item {
+  height: 50%;
+  width: 100%;
+}
+.seccion_carrusel_index_dos .carousel-item .img_carrusel {
+  border-radius: 15px;
+}
+
+.seccion_dos {
+  display: flex;
+  gap: 10px;
+}
+.seccion_dos .contenedor_tarjetas {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.seccion_dos .contenedor_tarjetas .contenedor_tarjeta_index {
+  height: 22rem;
+  background-color: #000000;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+}
+.seccion_dos .contenedor_tarjetas .contenedor_tarjeta_index .texto_cartas_index {
+  color: whitesmoke;
+  font-size: 1.6rem;
+  text-align: center;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+.bg-footer {
+  background-color: rgb(65, 65, 65);
+}
+.bg-footer .contenedor_bread {
+  background-color: rgb(65, 65, 65);
+}
+.bg-footer .fuente_breadcrumb {
+  color: whitesmoke !important;
+  list-style-type: none;
+  text-decoration: none;
+}
+.bg-footer .fuente_breadcrumb_activo {
+  color: rgb(108, 131, 49) !important;
+  list-style-type: none;
+  text-decoration: none;
+}
+.bg-footer .bg-social-media {
+  background-color: rgb(108, 131, 49);
+}
+.bg-footer .bg-social-media .separator {
+  width: 60px;
+  height: 2px;
+  margin-bottom: 4px;
+  margin-top: 0;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bg-footer .bg-social-media .separator .bg-copyright {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.bg-footer .text-dark {
+  color: whitesmoke !important;
+}
+.bg-footer .text-dark-dos {
+  color: rgb(161, 161, 161);
+}
+
+.bg-copyright {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.tarjetas_colores {
+  padding: 20px;
+  background-color: black;
+}
+.tarjetas_colores .contenedor_tarjetas_colores {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.boton_contacto_enviar {
+  background-color: whitesmoke;
+  color: black;
+  border: 1px solid black;
+}
+.boton_contacto_enviar:hover {
+  background-color: whitesmoke;
+  color: black;
+  border: 1px solid rgb(234, 239, 149);
+}
+
+.form-label-propio {
+  color: whitesmoke;
+}
+
+.form-outline .form-control:focus {
+  border-color: rgb(234, 239, 149);
+  box-shadow: 0 0 0 0.2rem rgb(234, 239, 149);
+}
+.form-outline .form-control:focus .form-outline .form-control::placeholder {
+  color: rgb(234, 239, 149);
+}
+
+.contenedor_img_espacios {
+  display: flex;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor_img_espacios .h5_banio {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3rem;
+  color: whitesmoke;
+  text-align: start;
+  justify-content: center;
+  text-shadow: -2px -2px 2px #000, 2px -2px 2px #000, -2px 2px 2px #000, 2px 2px 2px #000;
+}
+
+.p_uno_banio {
+  font-size: 1rem;
+  color: whitesmoke;
+  text-align: start;
+  justify-content: center;
+  text-shadow: -2px -2px 2px #000, 2px -2px 2px #000, -2px 2px 2px #000, 2px 2px 2px #000;
+}
+
+.p_dos_banio {
+  font-size: 1rem;
+  color: whitesmoke;
+  text-align: start;
+  justify-content: center;
+  text-shadow: -2px -2px 2px #000, 2px -2px 2px #000, -2px 2px 2px #000, 2px 2px 2px #000;
+}
+
+.contenedor_imagen_mapa {
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+}
+.contenedor_imagen_mapa .boton_contacto_ubicacion_mapa {
+  background-color: whitesmoke;
+  color: black;
+  border: 1px solid rgb(234, 239, 149);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor_imagen_mapa .boton_contacto_ubicacion_mapa:hover {
+  background-color: rgb(234, 239, 149);
+  color: black;
+  border: 1px solid rgb(108, 131, 49);
+}
+
+.contenedor_imagen_marcas {
+  background-color: black;
+  color: whitesmoke;
+}
+
+@media (max-width: 1000px) {
+  .alineador_textos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contenedor_img_espacios .h5_banio {
+    font-size: 3rem;
+    color: whitesmoke;
+    text-align: center;
+    justify-content: center;
+    text-shadow: 1px 4px 2px 1px black;
+  }
+  .contenedor_tarjetas {
+    margin: 5px;
+  }
+  .texto_cartas_index {
+    display: none;
+  }
+  .imagenes_pequeñas_index {
+    width: 100%;
+    height: 100%;
+  }
+  .contenedor_tarjeta_index {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .contenedor_img_espacios {
+    border: 1.5px solid rgb(65, 65, 65);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .contenedor_img_espacios .card-body h5 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .contenedor_img_espacios .card-body p {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

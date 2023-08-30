@@ -1,0 +1,80 @@
+
+    
+    .seccion_carrusel_index {
+        padding-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        .carousel-item {
+            height: 50%;
+            width: 100%;
+            .img_carrusel {
+                border-radius: $bordes_radio_15;
+
+            }
+        }
+    }
+    .seccion_carrusel_index_dos{
+        padding-top: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        .carousel-item {
+            height: 50%;
+            width: 100%;
+            .img_carrusel {
+                border-radius: $bordes_radio_15;
+                
+            }
+        }
+
+    }
+    
+     .seccion_dos {
+         display: flex;
+         gap:10px;
+         .contenedor_tarjetas{
+             display: flex;
+             height: 100%;
+             width: 100%;
+             
+             
+                         
+    
+             .contenedor_tarjeta_index{
+               
+                 height: 22rem;
+                //  background:
+                //  linear-gradient(135deg, #535151 21px, map-get($paleta_colores, "verde_borde"), #3f4041 24px, transparent 24px, transparent 67px, #93d196 67px, #3f4041 69px, transparent 69px),
+                //  linear-gradient(225deg, map-get($paleta_colores, "verde_borde") 21px, #3f4041 22px, #3f4041 24px, transparent 24px, transparent 67px,map-get($paleta_colores, "verde_borde"), #3f4041 69px, transparent 69px)0 64px;
+                //  background-color:#b1c3b0;
+                //  background-size: 64px 128px;
+                background-color: #000000;
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+                 .texto_cartas_index{
+                    color: map-get($paleta_colores, "blanco");
+                    font-size: ($tam_fuente_espacios)-1.4;
+                    text-align: center;
+                    text-shadow: 
+                    -1px -1px 0 map-get($paleta_colores, "negro"),  
+                    1px -1px 0 map-get($paleta_colores, "negro"),
+                    -1px 1px 0 map-get($paleta_colores, "negro"),
+                    1px 1px 0 map-get($paleta_colores, "negro"); 
+                    
+                        }
+         }
+     }
+ }
+
+
+
+
+    
+
+    
+  
+    
+  
+    
+   

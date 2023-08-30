@@ -1,0 +1,30 @@
+// Estilos de pagina UBICACION
+
+.contenedor_imagen_mapa{
+    background-color: map-get($paleta_colores, "negro");
+    color: map-get($paleta_colores, "blanco");
+    text-align: center;
+
+
+    .boton_contacto_ubicacion_mapa{
+        background-color: map-get($paleta_colores, "blanco");
+        color: map-get($paleta_colores, "negro");
+        border: $bordes_uno map-get($paleta_colores, "verde_hover");
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        &:hover{
+            background-color:map-get($paleta_colores, "verde_hover") ;
+            color: map-get($paleta_colores, "negro");
+            border: $bordes_uno map-get($paleta_colores, "verde_borde");
+        
+        }
+    }
+}
+
+
+
+
+
+

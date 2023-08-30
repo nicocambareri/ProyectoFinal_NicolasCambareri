@@ -1,0 +1,41 @@
+// Estilos de pagina ESPACIOS
+
+
+.contenedor_img_espacios{
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    background-color: map-get($paleta_colores,"negro" );
+    justify-content: center;
+    align-items: center;
+
+      .h5_banio  {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: ($tam_fuente_espacios);
+        color: map-get($paleta_colores, "blanco");
+        text-align: start;
+        justify-content: center;
+        text-shadow: $text_shadows_tres;
+      }
+    }
+     
+.p_uno_banio{
+    font-size: ($tam_fuente_espacios)-2;
+    color: map-get($paleta_colores, "blanco");
+    text-align: start;
+    justify-content: center;
+    text-shadow:$text_shadows_tres;
+       }
+.p_dos_banio{
+        font-size: ($tam_fuente_espacios)-2 ;
+        color: map-get($paleta_colores, "blanco");
+        text-align: start;
+        justify-content: center;
+        text-shadow: $text_shadows_tres;
+    }
+
+
+
+
+
+
